@@ -15,9 +15,9 @@ void subMenu(int& choice){
 // Note: THIS IS NOT THE FINAL PROGRAM!! This is just a space to test the class
 int main() {
     int choice ;
-
+    cout << "=== Banking System===" << endl ;
     string userInput;
-
+        
     // Ask user for their information
     cout << "Enter your name: ";
     getline(cin, userInput);
